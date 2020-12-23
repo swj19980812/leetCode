@@ -30,7 +30,6 @@ public class GenerateData {
 		return list;
 	}
 	public static List<Integer> generateOrderList(Integer num) {
-		
 		List<Integer> list = new ArrayList();
 		Random radom = new Random();
 		for(int i=0;i<num;i++) {

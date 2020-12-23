@@ -25,4 +25,11 @@ public class Tool {
         preMove(num,1);
         printArr(num);
     }
+    public static int max(int[] nums){
+        int max = nums[0];
+        for (int num : nums) {
+            max = Math.max(num,max);
+        }
+        return max;
+    }
 }

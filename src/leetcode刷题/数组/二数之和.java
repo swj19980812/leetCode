@@ -5,6 +5,9 @@ import java.util.Map;
 
 import 常用函数.Print;
 
+/**
+ * p1-二数之和
+ */
 public class 二数之和 {
 	
 	

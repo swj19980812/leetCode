@@ -31,7 +31,7 @@ public class 杨辉三角 {
         }
         return list;
     }
-    //动态规划解决杨辉三角的问题
+    //动态规划解决杨辉三角2的问题
     public static List<Integer> generate2(int num){
         List<Integer>list = new ArrayList<>();
         if(num<0){
